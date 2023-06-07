@@ -1,9 +1,9 @@
 public class Pedido {
-
     public void fazerPedido(String comida) {
-        if (comida.equals("Pizza")) {
+        if (comida.equalsIgnoreCase("Pizza")) {
+
             prepararPizza();
-        } else if (comida.equals("Hambúrguer")) {
+        } else if (comida.equalsIgnoreCase("Hambúrguer")) {
 
             prepararHamburguer();
         } else {
@@ -12,10 +12,11 @@ public class Pedido {
     }
 
     private void prepararPizza() {
-        System.out.println("Preparando pizza....");
+        System.out.println("Preparando pizza... Daqui a pouco seu pedido estará pronto!");
+    
     }
 
     private void prepararHamburguer() {
-        System.out.println("Preparando hambúrguer....");
+        System.out.println("Preparando hambúrguer...Daqui a pouco seu pedido estará pronto!");
     }
 }
