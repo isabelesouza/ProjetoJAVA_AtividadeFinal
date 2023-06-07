@@ -1,13 +1,7 @@
 public class Restaurante {
-
-    public void fazerPedido() {
-        // função fazerPedido
-        System.out.println("Pedido feito com sucesso!");
-    }
-
-    public void prepararComida() {
-        // Implementação da função prepararComida
-        System.out.println("Comida preparada!");
+    public static void main(String[] args) {
+        Pedido pedido = new Pedido();
+        pedido.fazerPedido("Pizza");
     }
 }
 
