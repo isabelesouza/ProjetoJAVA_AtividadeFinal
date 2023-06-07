@@ -12,10 +12,10 @@ public class Pedido {
     }
 
     private void prepararPizza() {
-        System.out.println("Preparando pizza...");
+        System.out.println("Preparando pizza....");
     }
 
     private void prepararHamburguer() {
-        System.out.println("Preparando hambúrguer...");
+        System.out.println("Preparando hambúrguer....");
     }
 }
