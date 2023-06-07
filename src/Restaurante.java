@@ -1,6 +1,7 @@
 public class Restaurante {
+
     public void fazerPedido() {
-        // Implementação da função fazerPedido
+        // função fazerPedido
         System.out.println("Pedido feito com sucesso!");
     }
 
